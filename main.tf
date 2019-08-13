@@ -7,6 +7,5 @@ resource "aws_cognito_identity_pool" "main" {
     server_side_token_check = "${var.server_side_token_check}"
   }
   supported_login_providers    = "${var.supported_login_providers}"
-  saml_provider_arns           = ["${var.saml_provider_arns}"]
   openid_connect_provider_arns = ["${var.openid_connect_provider_arns}"]
 }
