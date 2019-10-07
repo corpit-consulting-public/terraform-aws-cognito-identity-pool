@@ -57,3 +57,4 @@ variable "server_side_token_check" {
   description = "Whether server-side token validation is enabled for the identity provider’s token or not.(true or false)" 
   default     = ""
 }
+
