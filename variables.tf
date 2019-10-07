@@ -27,9 +27,9 @@ variable "openid_connect_provider_arns" {
 }
 
 variable "saml_provider_arns" {
-  type        = "string"
+  type        = "list"
   description = "An array of Amazon Resource Names (ARNs) of the SAML provider for your identity."
-  default     = ""
+  default     = []
 }
 
 variable "supported_login_providers" {
