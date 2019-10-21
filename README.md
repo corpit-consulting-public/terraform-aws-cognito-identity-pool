@@ -34,7 +34,13 @@ If you want to update README.md file, run that script while being in 'hooks' fol
 | identity\_pool\_name | The cognito identity pool name | string | n/a | yes |
 | openid\_connect\_provider\_arns | A list of OpendID Connect provider ARNs. | list | `<list>` | no |
 | provider\_name | The provider name for an Amazon Cognito Identity User Pool. | string | `""` | no |
-| saml\_provider\_arns | An array of Amazon Resource Names (ARNs) of the SAML provider for your identity. | string | `""` | no |
+| saml\_provider\_arns | An array of Amazon Resource Names (ARNs) of the SAML provider for your identity. | list | `<list>` | no |
 | server\_side\_token\_check | Whether server-side token validation is enabled for the identity provider’s token or not.(true or false) | string | `""` | no |
 | supported\_login\_providers | Key-Value pairs mapping provider names to provider app IDs. | map | `<map>` | no |
+
+## Outputs
+
+| Name | Description |
+|------|-------------|
+| id | An identity pool ID in the format |
 
