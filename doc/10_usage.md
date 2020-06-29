@@ -12,4 +12,5 @@ module "cognito-identity-pool" {
   server_side_token_check          = var.server_side_token_check
 }
 
+
 ```
